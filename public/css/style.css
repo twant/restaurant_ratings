@@ -34,7 +34,10 @@ p{
   font-family: 'Roboto', sans-serif;
   font-size : 0.8em;
   font-weight:200;
-  color: #222
+  color: #222;
+}
+#about{
+  line-height:1.5em;
 }
 
 span{
