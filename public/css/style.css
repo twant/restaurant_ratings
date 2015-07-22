@@ -33,10 +33,12 @@ h3{
 p{
   font-family: 'Roboto', sans-serif;
   font-size : 0.8em;
-  font-weight:300;
-  max-height:6em;
-  max-width:1080px;
+  font-weight:200;
   color: #222
+}
+
+span{
+  font-weight: 300;
 }
 
 nav {
