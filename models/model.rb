@@ -31,7 +31,7 @@ def get_rating(first,second, third)
       end
     elsif second=="quality"
       a=0.6667
-      if third=="price"
+      if third=="waittime"
         c=0.3333
       else
         c=0
