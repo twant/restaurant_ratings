@@ -1,0 +1,108 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,900italic,900,700italic,700,500italic,500,400italic,300italic,300,100italic);
+
+body{
+  background-image:url(http://www.douglasjohns.com/data/pages/050412133738_1peaches_1200.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:fixed;
+  font-family: 'Roboto', sans-serif;
+  color: #222;
+}
+
+h1{
+  font-family: 'Roboto', sans-serif;
+  font-size : 2em;
+  font-weight:200;
+  max-height:6em;
+  max-width:1080px;
+}
+h2{
+  font-family: 'Roboto', sans-serif;
+  font-size : 1.5em;
+  font-weight:200;
+  max-height:6em;
+  max-width:1080px;
+}
+h3{
+  font-family: 'Roboto', sans-serif;
+  font-size : 1.2em;
+  font-weight:200;
+  max-height:6em;
+  max-width:1080px;
+}
+p{
+  font-family: 'Roboto', sans-serif;
+  font-size : 0.8em;
+  font-weight:300;
+  max-height:6em;
+  max-width:1080px;
+  color: #222
+}
+
+nav {
+  text-align:center;
+  max-height:100px;
+  max-width:100%;
+  font-size:0.85em;
+  padding:2%;
+  white-space:pre;
+}
+
+a{
+  font-family: "Roboto";
+  font-weight:200;
+  font-size:1em;
+  text-decoration: none;
+  color: #222;
+}
+
+footer {
+  font-family: 'Roboto', sans-serif;
+  font-size : 0.6em;
+  font-weight:300;
+  max-height:6em;
+  max-width:1080px;
+  color: #222;
+  float: right;
+}
+.header{
+  text-align:center;
+}
+
+.choices{
+  border: solid 1px #888;
+  text-align:center;
+  width: 60%;
+  padding: 1%;
+  margin-left:19%;
+  background: #FAEBD7;
+}
+.button{
+  font-family: 'Roboto', sans-serif;
+  font-size : 0.75em;
+  font-weight:100;
+  background: #FFA07A;
+  padding:5px; 
+  border:1px solid #888; 
+  -webkit-border-radius: 5px #888;
+  border-radius: 5px #888;
+}
+
+a:hover{
+  font-family: "Roboto";
+  font-weight:300;
+  font-size:1em;
+  text-decoration: none;
+  color: rgb(199, 127, 113);
+}
+#preferences{
+  width:25%;
+  margin-left:37%;
+  font-size: 0.7em;
+}
+.submit_button{
+  text-align:center;
+}
+
+
+  

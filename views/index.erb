@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>Austin Restaurant Ratings</title>
+   <link rel="stylesheet" type="text/css" href="css/style.css">
+ </head>
+ <body>
+   <div class="header">
+   <h2> A Comprehensive Rating of Austin Restaurants</h2>
+  <nav>
+     <a href="/">Home       </a> | <a href="/about.erb">       About          </a> | <a href="/contact.erb">       Contact       </a> 
+   </nav>
+     </div>
+  <div class="choices">
+    <p>Please select the <i> most </i>important factor to you in choosing a restaurant </p>
+   <select form="preferences" name="first" class="button">
+     <option value="-----" selected>-----</option>
+     <option value="price">Price</option>
+     <option value="waittime">Wait time</option>
+     <option value="quality">Food Quality</option>
+   </select>
+   <br>
+    <p>Please select the <i>second most </i> important factor to you in choosing a restaurant </p>
+   <select form="preferences" name="second" class="button">
+     <option value="-----" selected>-----</option>
+     <option value="price">Price</option>
+     <option value="waittime">Wait time</option>
+     <option value="quality">Food Quality</option>
+   </select>
+   <br>
+    <p>Please select the <i>least</i> important factor to you in choosing a restaurant </p>
+   <select form="preferences" name="third" class="button">
+     <option value="-----" selected>-----</option>
+     <option value="price">Price</option>
+     <option value="waittime">Wait time</option>
+     <option value="quality">Food Quality</option>
+   </select>
+    <br>
+    <br>
+    <form method="POST" action="/result" id="preferences">
+       <input type="submit" value="Get Restaurants!" class="button" id="submit">
+     </form>
+    </div>
+   <br>
+  
+   <br>
+   <section>
+      <footer>
+        &copy; 2015 Taylor Want. All Rights Reserved.
+      </footer>
+    </section>
+  
+ </body>
+</html>

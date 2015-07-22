@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>Austin Restaurant Ratings</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+ </head>
+ <body>
+   <div class="header">
+   <h2> The Austin restaurants that best fit your preferences are:</h2>
+   </div>
+   <div class="choices">
+   <h3><%=@results%></h3>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <form method="POST" action="/return">
+       <input class='button' type="submit" value="Revise My Preferences">
+     </form>
+   </div>
+  
+ </body>
+</html>
