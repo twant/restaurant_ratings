@@ -4,29 +4,66 @@ def get_rating(first,second, third)
     a=1.0
     if second=="price"
       b=0.6667
-      c=0.3333
-    else
+      if third=="waittime"
+        c=0.3333
+      else
+        c=0
+      end
+    elsif second=="waittime"
       c=0.6667
-      b=0.3333
+      if third=="price"
+        b=0.3333
+      else
+        b=0
+      end
+    else
+      c=0
+      b=0
     end
   elsif first=="price"
     b=1.0
     if second=="waittime"
       c=0.6667
-      a=0.3333
-    else
+      if third=="quality"
+        a=0.3333
+      else
+        a=0
+      end
+    elsif second=="quality"
       a=0.6667
-      c=0.3333
+      if third=="price"
+        c=0.3333
+      else
+        c=0
+      end
+    else
+      a=0
+      c=0
     end
-  else
+  elsif first=="waittime"
     c=1.0
     if second =="quality"
       a=0.6667
-      b=0.3333
-    else
+      if third=="price"
+        b=0.3333
+      else
+        b=0
+      end
+    elsif second=="price"
       b=0.6667
-      a=0.3333
+      if third=="quality"
+        a=0.3333
+      else
+        a=0
+      end
+    else
+      b=0
+      a=0
     end
+  else
+    a=1.0
+    b=1.0
+    c=1.0
   end
   restaurants={
   "Salty Sow"=>{
