@@ -54,10 +54,13 @@ nav .button{
   -webkit-border-radius: 5px #888;
   border-radius: 5px #888;
   float:left;
-  width: 10%;
-  margin:2%;
+  width: 11%;
+  margin:3%;
 }
-
+#user{
+  width: 14%;
+  margin-right:0%;
+}
 #first{
   margin-left:27%
 }
@@ -80,15 +83,15 @@ footer {
 }
 .header{
   text-align:center;
-  margin-left:25%;
+  margin-left:27%;
 }
 
 .choices{
   border: solid 1px #888;
   text-align:center;
-  width: 60%;
+  width: 70%;
   padding: 1%;
-  margin-left:19%;
+  margin-left:27%;
   background: #FAEBD7;
   position: static;
 }
@@ -107,7 +110,7 @@ footer {
 .button:hover{
   font-family: "Roboto";
   font-weight:200;
-  font-size:0.85em;
+  font-size:0.8em;
   text-decoration: none;
   color: rgb(199, 127, 113);
 }
