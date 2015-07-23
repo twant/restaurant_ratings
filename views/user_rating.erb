@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>Austin Restaurant Ratings</title>
+   <link rel="stylesheet" type="text/css" href="css/style.css">
+ </head>
+ <body>
+   <div id="ratings" class="header">
+   <h1 > Your Ratings!</h1>
+     <h2>Tell us your rating of local restaurants to help us improve our recommendations!</h2>
+   </div>
+   <nav>
+   <a id="first" class="button" href="/">Home</a> <a href="/about.erb" class="button">About</a> <a href="/contact.erb" class="button" >Contact</a> <a id="user" href="/user-rating.erb" class="button" >Your Ratings</a> 
+   </nav>
+  <br>
+   <br>
+   <br>
+   <br>
+  <div class="choices">
+   <form method="POST" action="/rate" id="ratings">
+    <p>Restaurant Name: </p>
+     <br>
+    <input type="text" name="restaurant">
+     <br>
+     <p>How much, in US dollars, would an average person pay for a dinner including one appetizer, one entree, one dessert,and one drink?</p>
+     <br>
+     <input type="text" name="price">
+     <br>
+     <p>How long, in minutes, would a group of four people spend waiting for a table?</p>
+     <br>
+     <input type="text" name="time">
+     <br>
+     <p>How would your rate the quality of the food from 0-100?</p>
+     <br>
+     <input type="text" name="quality">
+     <br>
+     <br>
+     </div>
+    <br>
+    <br>
+     <input type="submit" value="Contribute!" class="button" id="rate">
+     <br>
+     <br>
+   </form>
+      <footer>
+        &copy; 2015 Taylor Want. All Rights Reserved.
+      </footer>
+    </section>
+  
+ </body>
+</html>

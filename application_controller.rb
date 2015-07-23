@@ -26,5 +26,21 @@ class MyApp < Sinatra::Base
   post '/return' do
     erb :index
   end
-
+  get '/user_rating.erb' do
+    erb :user_rating
+  end
+  post '/rate' do
+    r=params[:restaurant]
+    p=params[:price].to_i
+    q=params[:quality].to_i
+    w=params[:time].to_i
+    price=100*Math.exp(-p/32)
+    time=100*Math.exp(-w/60)
+      $restaurants[r]={
+        :price=>price,
+        :quality=>q,
+        :waittime=>time
+        }
+    erb :rate_thanks
+  end
 end

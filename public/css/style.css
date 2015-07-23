@@ -88,9 +88,14 @@ footer {
   color: #222;
   float: right;
 }
-.header{
+.header {
   text-align:center;
   margin-left:27%;
+}
+#ratings .header {
+  text-align:right;
+  float:right;
+  width: 60%;
 }
 
 .choices{
@@ -139,6 +144,12 @@ a:hover{
 }
 
 #revise{
+  width: 15%;
+  float:right;
+  margin-right:3%;
+}
+
+#rate {
   width: 15%;
   float:right;
   margin-right:3%;
