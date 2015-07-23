@@ -13,6 +13,9 @@
    <a id="result-first" class="button" href="/">Home</a> <a href="/about.erb" class="button">About</a> <a href="/contact.erb" class="button" >Contact</a> <a id="user" href="/user-rating.erb" class="button" >Your Ratings</a> 
    </nav>
       </div>
+   <br>
+   <br>
+   <br>
    <div class="choices">
    <h3><%=@results%></h3>
      <br>
@@ -20,10 +23,12 @@
      <br>
      <br>
      <br>
-     <form method="POST" action="/return">
-       <input class='button' type="submit" value="Revise My Preferences">
-     </form>
    </div>
+   <br>
+   <br>
+   <form method="POST" action="/return">
+       <input class='button' type="submit" id="revise" value="Revise My Preferences">
+     </form>
   
  </body>
 </html>
