@@ -102,10 +102,18 @@ def get_rating(first,second, third)
     :price=> 33,
     :waittime=>92,
     :quality=>85},
-   "Wahoo's Fish Tacos"=>{
+  "Wahoo's Fish Tacos"=>{
     :price=> 69,
     :waittime=>92,
-    :quality=>60}
+    :quality=>60},
+  "Honey Ham"=>{
+    :price=> 73,
+    :waittime=>92,
+    :quality=>70},
+  "Juan in a Million"=>{
+    :price=> 66,
+    :waittime=>80,
+    :quality=>70}
     }
   popular={}
   scores={}
