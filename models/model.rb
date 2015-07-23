@@ -93,7 +93,19 @@ def get_rating(first,second, third)
   "Torchy's Tacos"=>{
     :price=> 67,
     :waittime=>85,
-    :quality=>80}
+    :quality=>80},
+  "Uchi"=>{
+    :price=> 3,
+    :waittime=>61,
+    :quality=>100},
+  "Chez Zee"=>{
+    :price=> 33,
+    :waittime=>92,
+    :quality=>85},
+   "Wahoo's Fish Tacos"=>{
+    :price=> 69,
+    :waittime=>92,
+    :quality=>60}
     }
   popular={}
   scores={}
