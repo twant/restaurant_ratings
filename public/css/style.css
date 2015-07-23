@@ -7,6 +7,7 @@ body{
   background-position:fixed;
   font-family: 'Roboto', sans-serif;
   color: #222;
+  max-width:1080px
 }
 
 h1{
@@ -43,10 +44,13 @@ p{
 span{
   font-weight: 300;
 }
-
+nav{
+  min-width:500px;
+}
 nav .button{
   text-align:center;
-  font-size:0.65em;
+  font-size:80%;
+  max-height:5%;
   font-family: 'Roboto', sans-serif;
   font-weight:100;
   background: #FFA07A;
@@ -94,6 +98,7 @@ footer {
   margin-left:27%;
   background: #FAEBD7;
   position: static;
+  min-width:550px;
 }
 .button{
   font-family: 'Roboto', sans-serif;
