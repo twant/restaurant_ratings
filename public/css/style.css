@@ -68,6 +68,9 @@ nav .button{
 #first{
   margin-left:27%
 }
+#result-first{
+  margin-left:17.5%;
+}
 a{
   font-family: "Roboto";
   font-weight:200;
