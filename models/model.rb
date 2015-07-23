@@ -113,7 +113,11 @@ def get_rating(first,second, third)
   "Juan in a Million"=>{
     :price=> 66,
     :waittime=>80,
-    :quality=>70}
+    :quality=>70},
+    "Raising Cane's"=>{
+    :price=> 78,
+    :waittime=>92,
+    :quality=>60}
     }
   popular={}
   scores={}
