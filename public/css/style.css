@@ -163,7 +163,8 @@ a:hover{
 .map_div{
   float:left;
   margin-left: 1%;
-  height: 40%;
+  width: 200px;
+  height: 350px;
 }
 
 
