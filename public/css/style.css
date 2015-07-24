@@ -108,10 +108,11 @@ footer {
   text-align:center;
   width: 70%;
   padding: 1%;
-  margin-left:36%;
+  margin-left:32%;
   background: #FAEBD7;
   position: static;
   min-width:550px;
+  height: 40%
 }
 .button{
   font-family: 'Roboto', sans-serif;
@@ -162,12 +163,10 @@ a:hover{
 
 .map_div{
   float:left;
-  margin: 2%;
-  width: 22%;
-  padding:1%;
+  margin: 1%;
+  width: 20%;
+  height: 40%;
 }
-
-.map{}
 
 
 
