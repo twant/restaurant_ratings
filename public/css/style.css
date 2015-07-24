@@ -102,12 +102,13 @@ footer {
   width: 60%;
 }
 
+
 .choices{
   border: solid 1px #888;
   text-align:center;
   width: 70%;
   padding: 1%;
-  margin-left:27%;
+  margin-left:36%;
   background: #FAEBD7;
   position: static;
   min-width:550px;
@@ -158,6 +159,15 @@ a:hover{
   float:right;
   margin-right:3%;
 }
+
+.map_div{
+  float:left;
+  margin: 2%;
+  width: 22%;
+  padding:1%;
+}
+
+.map{}
 
 
 

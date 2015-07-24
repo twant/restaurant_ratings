@@ -32,7 +32,7 @@ class MyApp < Sinatra::Base
   end
   
   post '/rate' do
-    r=params[:restaurant]
+    r=params[:restaurant].to_s
     p=params[:price].to_i
     q=params[:quality].to_i
     w=params[:time].to_i
