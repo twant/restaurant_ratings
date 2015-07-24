@@ -108,7 +108,7 @@ footer {
   text-align:center;
   width: 70%;
   padding: 1%;
-  margin-left:32%;
+  margin-left:27%;
   background: #FAEBD7;
   position: static;
   min-width:550px;
@@ -163,8 +163,7 @@ a:hover{
 
 .map_div{
   float:left;
-  margin: 1%;
-  width: 20%;
+  margin-left: 1%;
   height: 40%;
 }
 
